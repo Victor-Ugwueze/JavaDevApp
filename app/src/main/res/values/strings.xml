@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JavaDevelopers</string>
+    <string name="user_name">username</string>
+    <string name="github_profile_url">Profile url</string>
+    <string name="share_profile">Share Profile</string>
+    <string name="JavaDeveloper">JavaDeveloper</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/developer_listview"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.javadevapp.DevelopersActivity">
+
+    <ImageView android:id="@+id/github_user_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:layout_weight="1.5"
+        tools:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:id="@+id/githu_user_name"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:text="@string/user_name"/>
+    <TextView
+        android:id="@+id/github_profile_url"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:text="@string/github_profile_url"/>
+
+    <Button android:id="@+id/btn_show_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:text="@string/share_profile"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"/>
+</LinearLayout>
